@@ -10,7 +10,7 @@ const billboardNew = ({ billboard }) => {
         <h1>New Billboard</h1>
         <form action="/billboards" method="post">
           <input
-            placeholder="Title"
+            placeholder="title"
             type="text"
             defaultValue={defaultTitle}
             title="billboard[title]"
