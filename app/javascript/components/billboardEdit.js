@@ -6,9 +6,9 @@ const billboardEdit = ({ billboard }) => {
     return (
       <>
         <h1>Billboard </h1>
-        <form action={`/billboards/${id}`} method="post">
+        <form action={`/billboards/${id}/artists/new`} method="post">
           {/* need this for edit! */}
-          <input type="hidden" name="_method" value="patch" /> 
+          <input type="hidden" title="_method" value="patch" /> 
           <input
             placeholder="title"
             type="text"

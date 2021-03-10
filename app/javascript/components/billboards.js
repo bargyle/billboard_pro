@@ -9,7 +9,7 @@ const Billboards = ({ billboards }) => {
       <a href={ url + "new" }>Add Billboard</a>
       { billboards.map((billboard) => (
         <div>
-          <h3>supposedly the top 100</h3>
+          <h3>{billboard.title}</h3>
           <a href={ url + billboard.id }>show</a>
           <a href={ url + billboard.id + '/edit' }>edit</a>
           <a
